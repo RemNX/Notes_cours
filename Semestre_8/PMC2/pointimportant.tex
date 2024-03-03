@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage{mdframed}
+\begin{document}
+\title{Physique de la matière condensé 2}
+\date{}
+\maketitle
+\tableofcontents
+
+\section{Rappel PMC}
+\begin{itemize}
+    \item \underline{Réseau de Bravais :} Objet mathématique representant un ensemble infini de points M obtenus par combinaison linéaire :
+    $$\vec{OM}(m_1+m_2+m_3)=m_1\vec{a_1}+m_2\vec{a_2}+m_3\vec{a_3}+$$
+    \item \underline{noeud du réseau :} Point M du réseau de Bravais
+    \item \underline{Motif :} Plus petit groupes de particules dont la répétition aux noeuf du réseau de Bravais décrit le cristal
+    \item \underline{Cristal :} Objet physique périodique qui peut être décrit par deux élément: un réseau de Bravais qui donne des infos sur la péridocité et un motif qui donne les informations sur la structure entre chaque période
+    \item \underline{Maille élémentaire :} Parallépipède engendré par les vecteurs de base du réseau de Bravais de volume $V=\vec{a_1}.(\vec{a_2}\wedge \vec{a_3})$
+    \item \underline{Réseau réciproque :} Réseau de Bravais engendré par translation avec comme vecteurs de base $(\vec{a_1^*}+\vec{a_2^*}+\vec{a_3^*})$ obtenu par $\vec{a_i^*}=\frac{2 \pi}{V}\vec{a_j^*}\wedge \vec{a_k^*}$ et $V^*=\frac{8\pi^3}{V}$
+    \item \underline{Première zone de Brillouin :} Volume de l'espace réciproque à l'intersection des mediatrice des segments qui joignent un noeud du réseau réciproque.
+\end{itemize}
+
+\newpage
+\section{Etats de Bloch }
+\begin{itemize}
+    \item \underline{Hamiltonien du système :} On se ramène a un problème de un électron réduit :
+    $$H=\frac{\vec{P}^2}{2m}+V(\vec{r})$$
+    \item \underline{Opérateur de translation :} $\Psi ' (\vec{r})=\tau_{\vec{T}}\Psi (\vec{r})$
+    \item \underline{Théorème et fonction de Bloch :}
+    \begin{mdframed}[linecolor=red,linewidth=2pt,leftmargin=100pt,rightmargin=100pt,innertopmargin=0pt]
+    $$\Psi(\vec{r}-\vec{T})=e^{-i\vec{k}\vec{T}}\Psi(\vec{r})$$
+    $$\Psi(\vec{r})=e^{i\vec{k}\vec{T}}u(\vec{r})$$
+    \end{mdframed}
+    \item \underline{Condition au limites périodique :} (à redefinir) dans un cristal périodique de taille finie on peut considérer que que les extremités sont connecté ce qui forme un cristall parfait
+    \item \item \underline{nombre quantique translationnel :}
+    $$\vec{k}=\sum_{i=1}\frac{P_i}{N_i}\vec{q_i^*}$$
+    avec k la nombre quantique translationnel, P un entier, et N le nombre de maille élementaire
+    \item \underline{Bandes d'énérgies :} 
+\end{itemize}
+
+
+\end{document}
